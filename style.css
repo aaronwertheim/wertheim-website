@@ -1,3 +1,113 @@
-body {
-    background: rgb(0, 238, 255);
+.name {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    font-size: larger;
+}
+
+.home-background {
+    background-color: darkgray;
+    background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/22426172_1013841115423707_1395195629733653780_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=RvaMyXQb2tAAX-uH0o6&_nc_ht=scontent-ort2-2.xx&oh=00_AT9WITm5dosvZ6YK0P-MnrtTg9Dx0BtTHXX3O9x0pyc1XQ&oe=62858E74);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 713px 713px;
+}
+
+nav {
+    width: 240px;
+    font-size: 18pt;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: darkgrey;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 240px;
+}
+
+.credits-background {
+    background-color: rgb(54, 64, 79);
+}
+
+th {
+    text-decoration: underline;
+}
+
+th, td {
+    text-align: left;
+    column-width: 300px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+caption {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 26pt;
+    font-weight: bold;
+    background-color: darkgray;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+table {
+    background-color: darkgray;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+img {
+    width: 400;
+    height: 500;
+    display: inline;
+    float: left;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.about-background {
+    background-color: rgb(54, 64, 79);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22pt;
+    word-spacing: 7px;
+    line-height: 28pt;
+    text-align: justify;
+    padding-top: 30px;
+    color: white;
+    margin-left: 450px;
+    margin-right: 3%;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+img, p {
+    
 }
