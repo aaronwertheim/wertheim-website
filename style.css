@@ -1,20 +1,17 @@
 .name {
-    font-size: 30pt;
+    font-size: 26pt;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
     letter-spacing: 3px;
     word-spacing: 10px;
-    
 }
 
 h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18pt;
     text-indent: 10px;
-}
-
-.name, h4 {
-    line-height: 2px;
+    margin-top: -30px;
+    letter-spacing: 3px;
 }
 
 .home-background {
@@ -22,11 +19,10 @@ h4 {
 }
 
 div {
-    font-size: 16pt;
     background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/22426172_1013841115423707_1395195629733653780_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=RvaMyXQb2tAAX-uH0o6&_nc_ht=scontent-ort2-2.xx&oh=00_AT9WITm5dosvZ6YK0P-MnrtTg9Dx0BtTHXX3O9x0pyc1XQ&oe=62858E74);
-    height: 700px;
-    width: 700px;
-    background-size: 700px;
+    height: 750px;
+    width: 750px;
+    background-size: 750px;
     border-radius: 10px;
 }
 
@@ -36,6 +32,7 @@ a:hover {
 
 a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
     display: block;
     background-color: black;
     color: white;
@@ -83,7 +80,6 @@ table {
 .headshot {
     width: 400;
     height: 500;
-    display: inline;
     float: left;
     background-color: white;
     border-radius: 15px;
@@ -103,6 +99,7 @@ p {
     color: white;
     margin-left: 450px;
     margin-right: 3%;
+    padding-bottom: 120px;
     min-width: 400px;
     max-width: 400px;
 }
