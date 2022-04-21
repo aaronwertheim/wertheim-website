@@ -1,33 +1,33 @@
 .name {
-    font-size: 30px;
+    font-size: 30pt;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
     letter-spacing: 3px;
     word-spacing: 10px;
-    margin-bottom: 0px;
+    
 }
 
 h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 0px;
-    font-size: larger;
+    font-size: 18pt;
+    text-indent: 10px;
+}
+
+.name, h4 {
+    line-height: 2px;
 }
 
 .home-background {
     background-color: darkgray;
-    background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/22426172_1013841115423707_1395195629733653780_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=RvaMyXQb2tAAX-uH0o6&_nc_ht=scontent-ort2-2.xx&oh=00_AT9WITm5dosvZ6YK0P-MnrtTg9Dx0BtTHXX3O9x0pyc1XQ&oe=62858E74);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 713px 713px;
 }
 
-nav {
-    width: 240px;
-    font-size: 18pt;
-    background-color: black;
+div {
+    font-size: 16pt;
+    background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/22426172_1013841115423707_1395195629733653780_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=RvaMyXQb2tAAX-uH0o6&_nc_ht=scontent-ort2-2.xx&oh=00_AT9WITm5dosvZ6YK0P-MnrtTg9Dx0BtTHXX3O9x0pyc1XQ&oe=62858E74);
+    height: 700px;
+    width: 700px;
+    background-size: 700px;
     border-radius: 10px;
-    padding: 5px;
 }
 
 a:hover {
@@ -43,8 +43,8 @@ a {
     text-decoration: none;
     border-style: solid;
     border-radius: 10px;
-    margin: 5px;
-    max-width: 240px;
+    margin: 5px 0px 5px 0px;
+    max-width: 200px;
 }
 
 .credits-background {
@@ -80,12 +80,11 @@ table {
     border-bottom-right-radius: 25px;
 }
 
-img {
+.headshot {
     width: 400;
     height: 500;
     display: inline;
     float: left;
-    padding: 10px;
     background-color: white;
     border-radius: 15px;
 }
@@ -104,7 +103,7 @@ p {
     color: white;
     margin-left: 450px;
     margin-right: 3%;
-    min-width: 300px;
+    min-width: 400px;
     max-width: 400px;
 }
 
