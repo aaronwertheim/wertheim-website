@@ -26,11 +26,11 @@ div {
     border-radius: 10px;
 }
 
-a:hover {
+.menu:hover {
     background-color: darkgrey;
 }
 
-a {
+.menu {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
     display: block;
@@ -104,3 +104,26 @@ p {
     max-width: 400px;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: -69px;
+    width: 700px;
+    height: 65px;
+    left: 25px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fb, .email, .linkedIn {
+    text-decoration: none;
+    color: white;
+    margin: 20px 20px 0px 20px;
+    font-size: 35px;
+    border-radius: 25%;
+}
