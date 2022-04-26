@@ -104,11 +104,11 @@ p {
     max-width: 400px;
 }
 
-footer {
-    background-color: black;
+nav {
+    background: black;
     color: white;
     position: absolute;
-    bottom: -69px;
+    margin-top: 450px;
     width: 700px;
     height: 65px;
     left: 25px;
@@ -122,8 +122,7 @@ footer {
 
 .fb, .email, .linkedIn {
     text-decoration: none;
-    color: white;
     margin: 20px 20px 0px 20px;
     font-size: 35px;
-    border-radius: 25%;
+    color: white;
 }
