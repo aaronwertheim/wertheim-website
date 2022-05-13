@@ -10,7 +10,7 @@ h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18pt;
     text-indent: 10px;
-    margin-top: -30px;
+    margin-top: 0px;
     letter-spacing: 3px;
 }
 
@@ -24,6 +24,7 @@ div {
     width: 750px;
     background-size: 750px;
     border-radius: 10px;
+    margin: auto;
 }
 
 .menu:hover {
@@ -40,8 +41,8 @@ div {
     text-decoration: none;
     border-style: solid;
     border-radius: 10px;
-    margin: 5px 0px 5px 0px;
-    max-width: 200px;
+    
+    width: fit-content;
 }
 
 .credits-background {
@@ -89,7 +90,7 @@ table {
     background-color: rgb(54, 64, 79);
 }
 
-p {
+.bio {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22pt;
     word-spacing: 7px;
@@ -104,14 +105,12 @@ p {
     max-width: 400px;
 }
 
-nav {
+.contactInfo {
     background: black;
     color: white;
-    position: absolute;
-    margin-top: 450px;
+    margin-top: -75px;
     width: 700px;
     height: 65px;
-    left: 25px;
     border-color: white;
     border-style: solid;
     border-radius: 5px;
@@ -123,6 +122,6 @@ nav {
 .fb, .email, .linkedIn {
     text-decoration: none;
     margin: 20px 20px 0px 20px;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
 }
